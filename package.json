@@ -1,0 +1,25 @@
+{
+  "name": "kt-brick-image",
+  "version": "1.0.0",
+  "description": "基于opencv的图片处理工具",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.wasm",
+    "dist/**/*.wasm.gz",
+    "dist/**/*.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeithWang2019/kt-brick-image.git"
+  },
+  "keywords": [
+    "图片裁剪",
+    "图片压缩",
+    "WebAssembly",
+    "web程序集"
+  ],
+  "author": "KeithWang",
+  "license": "MIT"
+}
