@@ -1,6 +1,6 @@
 {
   "name": "kt-brick-image",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "main": "dist/kt-brick-image.umd.js",
   "module": "dist/kt-brick-image.es.js",
