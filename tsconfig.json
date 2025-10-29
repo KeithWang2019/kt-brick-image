@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    // 启用类型声明生成
+    "declaration": true,
+    // 只生成 .d.ts 文件（不生成编译后的 JS，JS 由 Vite 打包）
+    "emitDeclarationOnly": true,
+    // 类型声明文件输出目录（建议与 Vite 打包目录一致，如 dist/types）
+    "declarationDir": "dist/types",
+    // 目标 JS 版本
+    "target": "ESNext",
+    // 模块系统
+    "module": "ESNext",
+    // 模块解析方式
+    "moduleResolution": "bundler",
+    // 允许导入 .vue 文件
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    // Vue 类型支持
+    "types": [
+      "vue"
+    ],
+    // 跳过库检查（加速编译）
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

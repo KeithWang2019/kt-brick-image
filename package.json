@@ -1,25 +1,24 @@
 {
   "name": "kt-brick-image",
-  "version": "1.0.0",
-  "description": "基于opencv的图片处理工具",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "1.0.5",
+  "type": "module",
+  "main": "dist/kt-brick-image.umd.js",
+  "module": "dist/kt-brick-image.es.js",
+  "types": "dist/types/index.d.ts",
   "files": [
-    "dist/**/*.js",
-    "dist/**/*.wasm",
-    "dist/**/*.wasm.gz",
-    "dist/**/*.d.ts"
+    "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/KeithWang2019/kt-brick-image.git"
+  "scripts": {
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "link": "npm link"
   },
-  "keywords": [
-    "图片裁剪",
-    "图片压缩",
-    "WebAssembly",
-    "web程序集"
-  ],
-  "author": "KeithWang",
-  "license": "MIT"
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "@vue/tsconfig": "^0.8.1",
+    "sass-embedded": "^1.93.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7",
+    "vite-plugin-compression": "^0.5.1",
+    "vue-tsc": "^3.1.0"
+  }
 }
