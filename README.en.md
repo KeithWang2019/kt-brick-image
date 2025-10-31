@@ -21,7 +21,7 @@ A lightweight web-based image processing tool built with WebAssembly + OpenCV. I
   - PNG: Lossless compression (preserves image quality while significantly reducing file size)
   - JPG: Quality-controllable compression (supports custom quality parameters to balance file size and clarity)
 
-5. **Precise Cropping**
+4. **Precise Cropping**
   - Supports cropping PNG/JPG images by dimensions or aspect ratio.
   - Ensures smooth edge processing without distortion.
 
