@@ -1,6 +1,8 @@
 # 积木图片处理（裁剪、压缩）工具
 
-<img src="https://brick.cangsg.com/logo.png" alt="示意图" width="120" height="120">
+<img src="https://brick.cangsg.com/logo.png" alt="示意图" width="120" height="120"> 
+
+ [English](./README.en.md "English")
 
 ## 轻量 Web 图像处理器技术方案
 

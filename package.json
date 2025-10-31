@@ -1,6 +1,6 @@
 {
   "name": "kt-brick-image",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "main": "dist/kt-brick-image.umd.js",
   "module": "dist/kt-brick-image.es.js",
@@ -29,7 +29,8 @@
     "WebAssembly",
     "dpi不影响",
     "图片裁剪",
-    "压缩"
+    "压缩",
+    "opencv"
   ],
   "author": "KeithWang",
   "license": "MIT"
