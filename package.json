@@ -1,6 +1,6 @@
 {
   "name": "kt-brick-image",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "main": "dist/kt-brick-image.umd.js",
   "module": "dist/kt-brick-image.es.js",
@@ -20,5 +20,17 @@
     "vite": "^7.1.7",
     "vite-plugin-compression": "^0.5.1",
     "vue-tsc": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeithWang2019/kt-brick-image.git"
+  },
+  "keywords": [
+    "WebAssembly",
+    "dpi不影响",
+    "图片裁剪",
+    "压缩"
+  ],
+  "author": "KeithWang",
+  "license": "MIT"
 }
